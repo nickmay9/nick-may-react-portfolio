@@ -1,0 +1,12 @@
+.bottomNav{
+    background-color: #343a40;
+    border-top: 2px solid #43FFF4;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bottomNav img {
+    padding: 10px;
+}

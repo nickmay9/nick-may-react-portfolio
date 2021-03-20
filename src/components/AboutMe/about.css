@@ -7,13 +7,3 @@
     height: 25%;
     margin: auto;
 }
-
-.title{
-    text-align: center;
-}
-
-.title h1{
-    margin: auto;
-    width: 10%;
-    border-bottom: 2px solid black;
-}

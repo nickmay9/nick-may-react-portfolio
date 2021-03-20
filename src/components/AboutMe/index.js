@@ -3,9 +3,9 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './about.css';
 
-import cfImage from '../../assets/images/0E2D6474-F560-4EFD-899A-31E4F9C6A190.jpeg';
-import surfImage from '../../assets/images/58EB85D3-3812-4221-BE02-77E0C26656BA_1_105_c.jpeg';
-import hikeImage from '../../assets/images/EF33746B-78CC-403E-9EE4-80961DE77034_1_105_c.jpeg';
+import cfImage from '../../assets/aboutImages/0E2D6474-F560-4EFD-899A-31E4F9C6A190.jpeg';
+import surfImage from '../../assets/aboutImages/58EB85D3-3812-4221-BE02-77E0C26656BA_1_105_c.jpeg';
+import hikeImage from '../../assets/aboutImages/EF33746B-78CC-403E-9EE4-80961DE77034_1_105_c.jpeg';
 
 function About() {
     const slideImages = [
@@ -32,7 +32,7 @@ function About() {
             </p>
             <div className="slide-container">
                 <Slide>
-                    {slideImages.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)}
+                    {slideImages.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt='Nick May' />)}
                 </Slide>
             </div>
         </section>
