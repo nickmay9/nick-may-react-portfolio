@@ -1,7 +1,9 @@
 import React from 'react';
 import './nav.css';
 
-function Nav() {
+function Nav(props) {
+
+    const {section, sectionSelected, setSectionSelected} = props;
 
     return (
         <header className="flex-row topnav">
@@ -10,10 +12,16 @@ function Nav() {
             </h2>
             <nav>
                 <ul className="flex-row">
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
-                    <li>Résumé</li>
+                    {section.map((sec) => (
+                        <li className={`${sec === sectionSelected && 'navActive'}`}>
+                            <span onClick={() => {
+                                setSectionSelected(sec)
+                            }}>
+                                {sec}
+                            </span>
+                        </li>
+                    ))}
+                    <li><a href='https://drive.google.com/file/d/14e8e7ODmAtUiaxqjbthksMEQhKS0x19G/view' target="_blank">Résumé</a></li>
                 </ul>
             </nav>
         </header>

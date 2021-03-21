@@ -12,13 +12,18 @@ li{
     background-color: #343a40;
     border-bottom: 1px solid #43FFF4;
     padding: 5px;
+    color: white;
+}
+
+.topnav a{
+    color: white;
 }
 
 .topnav li{
-    color: white;
     padding-right: 15px;
 }
 
-.topnav a {
-    color: white;
+.navActive {
+    color: #43FFF4;
 }
+
