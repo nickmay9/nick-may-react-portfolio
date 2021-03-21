@@ -1,0 +1,16 @@
+.projectFlex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+.projectFlex img{
+    width: 45%;
+    padding: 10px;
+    transition: .5s ease;
+}
+
+.projectFlex img:hover{
+    opacity: .3;
+}
