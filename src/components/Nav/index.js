@@ -8,7 +8,7 @@ function Nav(props) {
     return (
         <header className="flex-row topnav">
             <h2>
-                <a href="/">Nick May Portolio</a>
+                Nick May Portolio
             </h2>
             <nav>
                 <ul className="flex-row">
