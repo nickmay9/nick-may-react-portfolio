@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './contact.css'
 
 function Contact() {
     function validateEmail(email) {
