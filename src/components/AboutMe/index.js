@@ -1,39 +1,27 @@
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
 import './about.css';
 
-import cfImage from '../../assets/aboutImages/0E2D6474-F560-4EFD-899A-31E4F9C6A190.jpeg';
-import surfImage from '../../assets/aboutImages/58EB85D3-3812-4221-BE02-77E0C26656BA_1_105_c.jpeg';
-import hikeImage from '../../assets/aboutImages/EF33746B-78CC-403E-9EE4-80961DE77034_1_105_c.jpeg';
+import aboutImg from '../../assets/aboutImages/D5B0A064-DFA2-4456-AF5E-DAFAD7F17196_1_105_c.jpeg'
+
 
 function About() {
-    const slideImages = [
-        hikeImage,
-        surfImage,
-        cfImage
-    ];
 
     return (
-        <section>
-            <div className="title">
-                <h1>About Me</h1>
-            </div>
-            <p className="aboutMe">
-                I'm a graduate of the University of North Florida where I earned my Bachelor's in Electrical
-                Engineering and minor in Computer Science. While attending UNF, I was a member of D1 Men's Soccer
-                Program. I played central midfield there and was a key part of the team that brought home the first
-                conference title for the program and earned the program's first birth into the NCAA tournament.
-
-                I love to live a very active lifestyle. I spent the majority of my life up until I was 23 playing
-                soccer competetively. Since then I've started to find other things I'm passionate about. I learned how to surf and
-                fell in love with it and now travel the world to surf. I also found crossfit and I am now getting into doing
-                triathlon's.
-            </p>
-            <div className="slide-container">
-                <Slide>
-                    {slideImages.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt='Nick May' />)}
-                </Slide>
+        <section id="aboutMe">
+            <img src={aboutImg} className="imgContainer"></img>
+            <div className="aboutContainer">
+                <div className="title">
+                    <h1>About Me</h1>
+                </div>
+                <p className="aboutContent">
+                    I graduated from the University of North Florida with a degree in Electrical Engineering and a minor in Computer Science. While at UNF, I was a student athlete playing for the soccer team. In my Senior season I helped the team to it's first ever division 1 conference title and NCAA tournament birth.
+                    <br></br>
+                    <br></br>
+                    After college, I stumbled around doing a test engineering job and most recently a sales engineering job. During that time, a couple things remained true: 1) I really like software, programming, and everything to do with it. and 2) I love fitness and health.
+                    <br></br>
+                    <br></br>
+                    I am now training for my first Ironman and looking for a way to bring my passion for fitness and software together to be able help people pursue their own goals. I have extensive knowledge in Javascript, MySQL, SQL, MERN Stack, and much more.
+                </p>
             </div>
         </section>
     );
