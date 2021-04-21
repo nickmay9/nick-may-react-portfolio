@@ -11,11 +11,8 @@ This is a portfolio for Nick May using Reactjs.
 * [License](#license)
 * [Questions](#questions)
 
-## Screenshot
-![screenshot](screencapture-nickmay9-github-io-nick-may-react-portfolio-2021-03-21-18_23_01.png)
-
 ## Deployed
-[link to deployed site](https://nickmay9.github.io/nick-may-react-portfolio/)
+[link to deployed site](https://nickmay-portfolio.herokuapp.com/)
 
 ## License 
 This is free and unencumbered software released into the public domain.
