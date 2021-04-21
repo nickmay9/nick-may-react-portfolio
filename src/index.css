@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-section {
-  margin-top: 25px;
-  margin-bottom: 25px;
+.sectionMargin{
+  padding-top: 80px;
+  margin-bottom: 7%;
 }
 
 .title{

@@ -7,7 +7,7 @@ import aboutImg from '../../assets/aboutImages/D5B0A064-DFA2-4456-AF5E-DAFAD7F17
 function About() {
 
     return (
-        <section id="aboutMe">
+        <section id="aboutMe"className="sectionMargin" >
             <img src={aboutImg} className="imgContainer"></img>
             <div className="aboutContainer">
                 <div className="title">

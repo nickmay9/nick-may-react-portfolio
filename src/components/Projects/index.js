@@ -37,19 +37,21 @@ function Projects(){
     ]);
 
     return(
-        <section id="projects">
+        <section id="projects" className="sectionMargin">
             <div className="title">
                 <h1>Projects</h1>
             </div>
             <div className="projectFlex">
                 {projects.map(project => ( 
-                     
+                    <div>
                         <img
                             src={require(`../../assets/projectImages/${project.source}`).default}
                             alt={project.title}
                             key={project.title}
-                            onClick={() => {window.open(project.link)}}
                         />
+                        <h3>{project.title}</h3>
+                        <button className="projectBtn" onClick={() => {window.open(project.link)}}>View Deployed Project</button>
+                    </div>
                 ))}
             </div>
         </section>
