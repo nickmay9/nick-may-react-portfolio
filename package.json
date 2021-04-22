@@ -1,8 +1,9 @@
 {
   "homepage": "http://nickmay9.github.io/nick-may-react-portfolio",
-  "name": "nick-may-react-portfolio",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
