@@ -38,7 +38,7 @@ function Projects(){
 
     return(
         <section id="projects" className="sectionMargin">
-            <div className="title">
+            <div className="title projectTitle">
                 <h1>Projects</h1>
             </div>
             <div className="projectFlex">

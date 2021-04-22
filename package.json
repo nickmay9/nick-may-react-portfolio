@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/nickmay9/nick-may-react-portfolio/issues"
   },
-  "homepage": "https://github.com/nickmay9/nick-may-react-portfolio#readme"
+  "homepage": "https://github.com/nickmay9/nick-may-react-portfolio#readme",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2"
+  }
 }
