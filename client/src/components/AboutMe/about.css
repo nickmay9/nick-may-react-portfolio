@@ -1,0 +1,24 @@
+#aboutMe{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutContainer{
+    width: 60%;
+}
+
+.aboutContainer p{
+    font-family:georgia,serif;
+	color:#381704;
+    font-size: 15px;
+	font-weight:normal;
+	line-height:150%;
+	padding:0px; 
+}
+
+.imgContainer{
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}

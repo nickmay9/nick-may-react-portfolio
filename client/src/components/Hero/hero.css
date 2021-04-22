@@ -1,0 +1,36 @@
+.hero {
+    background-image: linear-gradient(rgba(85, 84, 84, 0.3), rgba(85, 84, 84, 0.3)), url(../../assets/aboutImages/EF33746B-78CC-403E-9EE4-80961DE77034_1_105_c.jpeg);
+    background-size: cover;
+    padding: 22%;
+    background-position: center;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.typewrite {
+    font: bold 34px "Century Schoolbook", Georgia, Times, serif;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.quote{
+    font-family:georgia, serif;
+    font-weight:bold;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    padding-bottom:3px;
+}
+
+.button {
+    background-color: #43FFF4; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
