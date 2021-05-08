@@ -1,29 +1,27 @@
 {
   "name": "nick-may-react-portfolio",
   "version": "1.0.0",
-  "description": "Nick May's portfolio",
+  "description": "Portfolio page for Nick May",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed"
+    "install": "cd server && npm i && cd ../client && npm i"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nickmay9/nick-may-react-portfolio.git"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Nick May",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nickmay9/nick-may-react-portfolio/issues"
   },
   "homepage": "https://github.com/nickmay9/nick-may-react-portfolio#readme",
   "dependencies": {
+    "concurrently": "^6.0.2",
     "if-env": "^1.0.4"
-  },
-  "devDependencies": {
-    "concurrently": "^6.0.2"
   }
 }

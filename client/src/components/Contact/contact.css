@@ -47,3 +47,8 @@ textarea {
     cursor: pointer;
     width: 250px;
 }
+
+.error-text{
+    color: red;
+    font: bold "Century Schoolbook", Georgia, Times, serif;
+}

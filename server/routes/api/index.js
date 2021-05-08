@@ -1,6 +1,7 @@
 const router = require('express').Router();
-const contactRoutes = require('./contact-routes.js');
+const emailRoutes = require('./email-routes');
 
-router.use('/contacts', contactRoutes);
+//add prefix of /pizzas to routes created in pizza-routes
+router.use('/email', emailRoutes);
 
-module.export = router;
+module.exports = router;
