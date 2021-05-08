@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/nick-may-react-portfolio/static/css/main.6e682303.chunk.css",
-    "main.js": "/nick-may-react-portfolio/static/js/main.3473ada2.chunk.js",
-    "main.js.map": "/nick-may-react-portfolio/static/js/main.3473ada2.chunk.js.map",
-    "runtime-main.js": "/nick-may-react-portfolio/static/js/runtime-main.69fae930.js",
-    "runtime-main.js.map": "/nick-may-react-portfolio/static/js/runtime-main.69fae930.js.map",
-    "static/css/2.0ccb862f.chunk.css": "/nick-may-react-portfolio/static/css/2.0ccb862f.chunk.css",
-    "static/js/2.59694d36.chunk.js": "/nick-may-react-portfolio/static/js/2.59694d36.chunk.js",
-    "static/js/2.59694d36.chunk.js.map": "/nick-may-react-portfolio/static/js/2.59694d36.chunk.js.map",
-    "static/js/3.60a14ade.chunk.js": "/nick-may-react-portfolio/static/js/3.60a14ade.chunk.js",
-    "static/js/3.60a14ade.chunk.js.map": "/nick-may-react-portfolio/static/js/3.60a14ade.chunk.js.map",
+    "main.css": "/nick-may-react-portfolio/static/css/main.2b67749a.chunk.css",
+    "main.js": "/nick-may-react-portfolio/static/js/main.350e8765.chunk.js",
+    "main.js.map": "/nick-may-react-portfolio/static/js/main.350e8765.chunk.js.map",
+    "runtime-main.js": "/nick-may-react-portfolio/static/js/runtime-main.46bf6253.js",
+    "runtime-main.js.map": "/nick-may-react-portfolio/static/js/runtime-main.46bf6253.js.map",
+    "static/js/2.df5c6309.chunk.js": "/nick-may-react-portfolio/static/js/2.df5c6309.chunk.js",
+    "static/js/2.df5c6309.chunk.js.map": "/nick-may-react-portfolio/static/js/2.df5c6309.chunk.js.map",
+    "static/js/3.d3dc72ca.chunk.js": "/nick-may-react-portfolio/static/js/3.d3dc72ca.chunk.js",
+    "static/js/3.d3dc72ca.chunk.js.map": "/nick-may-react-portfolio/static/js/3.d3dc72ca.chunk.js.map",
     "index.html": "/nick-may-react-portfolio/index.html",
-    "static/css/2.0ccb862f.chunk.css.map": "/nick-may-react-portfolio/static/css/2.0ccb862f.chunk.css.map",
-    "static/css/main.6e682303.chunk.css.map": "/nick-may-react-portfolio/static/css/main.6e682303.chunk.css.map",
-    "static/js/2.59694d36.chunk.js.LICENSE.txt": "/nick-may-react-portfolio/static/js/2.59694d36.chunk.js.LICENSE.txt",
-    "static/media/0E2D6474-F560-4EFD-899A-31E4F9C6A190.248a8c39.jpeg": "/nick-may-react-portfolio/static/media/0E2D6474-F560-4EFD-899A-31E4F9C6A190.248a8c39.jpeg",
-    "static/media/58EB85D3-3812-4221-BE02-77E0C26656BA_1_105_c.daf19fc1.jpeg": "/nick-may-react-portfolio/static/media/58EB85D3-3812-4221-BE02-77E0C26656BA_1_105_c.daf19fc1.jpeg",
-    "static/media/index.css": "/nick-may-react-portfolio/static/media/765ca76ca89f139d475c1f4a368048f0.1b81c511.jpeg",
+    "static/css/main.2b67749a.chunk.css.map": "/nick-may-react-portfolio/static/css/main.2b67749a.chunk.css.map",
+    "static/js/2.df5c6309.chunk.js.LICENSE.txt": "/nick-may-react-portfolio/static/js/2.df5c6309.chunk.js.LICENSE.txt",
     "static/media/BootCamp-Project2.png": "/nick-may-react-portfolio/static/media/BootCamp-Project2.a1dd2e58.png",
-    "static/media/EF33746B-78CC-403E-9EE4-80961DE77034_1_105_c.ec848e2b.jpeg": "/nick-may-react-portfolio/static/media/EF33746B-78CC-403E-9EE4-80961DE77034_1_105_c.ec848e2b.jpeg",
+    "static/media/D5B0A064-DFA2-4456-AF5E-DAFAD7F17196_1_105_c.3c84d3b8.jpeg": "/nick-may-react-portfolio/static/media/D5B0A064-DFA2-4456-AF5E-DAFAD7F17196_1_105_c.3c84d3b8.jpeg",
+    "static/media/hero.css": "/nick-may-react-portfolio/static/media/EF33746B-78CC-403E-9EE4-80961DE77034_1_105_c.ec848e2b.jpeg",
     "static/media/Image 12-4-20 at 2.49 PM.jpeg": "/nick-may-react-portfolio/static/media/Image 12-4-20 at 2.49 PM.e3b0b393.jpeg",
     "static/media/Image 12-4-20 at 3.01 PM.jpeg": "/nick-may-react-portfolio/static/media/Image 12-4-20 at 3.01 PM.ea11c731.jpeg",
     "static/media/iconmonstr-facebook-3.4b266d41.svg": "/nick-may-react-portfolio/static/media/iconmonstr-facebook-3.4b266d41.svg",
@@ -31,10 +27,9 @@
     "static/media/project-5.jpeg": "/nick-may-react-portfolio/static/media/project-5.e06abb01.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.69fae930.js",
-    "static/css/2.0ccb862f.chunk.css",
-    "static/js/2.59694d36.chunk.js",
-    "static/css/main.6e682303.chunk.css",
-    "static/js/main.3473ada2.chunk.js"
+    "static/js/runtime-main.46bf6253.js",
+    "static/js/2.df5c6309.chunk.js",
+    "static/css/main.2b67749a.chunk.css",
+    "static/js/main.350e8765.chunk.js"
   ]
 }
